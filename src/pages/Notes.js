@@ -46,7 +46,7 @@ export default class Notes extends Component {
             </div>
         </div>
         <div className="px-4 mb-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
-            {this.state.notes.filter(note => {
+            {/* {this.state.notes.filter(note => {
                 return note.title.toLowerCase().match(this.state.searchQuery.toLowerCase()) || note.body.toLowerCase().match(this.state.searchQuery.toLowerCase());
             }).map(note => (
             <Link to={`/notes/${note.id}/edit`} key={note.id} className="bg-blue-200 p-3 rounded shadow">
@@ -55,7 +55,7 @@ export default class Notes extends Component {
                 </div>
                 <p className="text-gray-600 text-sm">{note.body}</p>
             </Link>
-            ))}
+            ))} */}
         </div>
         <div className="w-full h-full fixed top-0 left-0 bg-black bg-opacity-50 z-20 flex justify-center items-center hidden">
             <div className="bg-white w-4/5 rounded-lg p-4">
